@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -28,12 +32,25 @@ textarea {
 .time-block {
   text-align: center;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.time-block h2 {
+  align-self: center;
+}
+
+.time-block,
+.event-block {
+  border-right: 1px solid black;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border: 2.5px solid black;
+  border-radius: 5px;
 }
 
 .hour {
