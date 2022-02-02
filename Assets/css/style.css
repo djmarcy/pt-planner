@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -111,8 +111,4 @@ input {
 
 .save-img:hover {
   cursor: pointer;
-}
-
-.hour-block {
-  border: solid 2px black;
 }
